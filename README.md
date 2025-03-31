@@ -115,9 +115,55 @@ python StartProject.py
 
 ---
 
+## 🐳 Cài đặt và chạy hệ thống bằng Docker
+
+### 📌 1️⃣ Cài đặt Docker
+🖥️ Tải và cài đặt **Docker Desktop** tại: [🔗 Docker](https://www.docker.com/products/docker-desktop/)  
+📌 **Kiểm tra cài đặt thành công:**
+```sh
+docker --version
+```
+
+### 📌 2️⃣ Clone dự án và build Docker image
+📥 **Clone repository từ GitHub:**
+```sh
+git clone https://github.com/MinhPhambk/TrafficX_Backend.git
+cd TrafficX_Backend
+```
+
+🐳 **Build Docker image:**
+```sh
+docker build -t trafficx-backend .
+```
+
+### 📌 3️⃣ Chạy hệ thống bằng Docker
+🚀 **Khởi động container:**
+```sh
+docker run --gpus all -p 8000:8000 --name trafficx-container trafficx-backend
+```
+
+📌 **Dừng container:**
+```sh
+docker stop trafficx-container
+```
+
+📌 **Xóa container:**
+```sh
+docker rm trafficx-container
+```
+
+📌 **Xóa image:**
+```sh
+docker rmi trafficx-backend
+```
+
+---
+
 ## 🚀 Hỗ trợ & Liên hệ
 
 📧 **Email:** [phamngocminh1230@gmail.com](mailto:phamngocminh1230@gmail.com)  
 🐞 **Báo lỗi:** [🔗 Issues trên GitHub](https://github.com/MinhPhambk/TrafficX_Backend/issues)  
 
 🎯 **TrafficX - Công nghệ giao thông thông minh, an toàn hơn mỗi ngày!** 🚦
+
+
