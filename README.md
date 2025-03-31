@@ -1,6 +1,6 @@
-# 🚗 TrafficX - Hệ thống giám sát giao thông thông minh (Backend)
+# 🚗 TrafficXY - Hệ thống giám sát giao thông thông minh (Backend)
 
-> **TrafficX** là hệ thống giám sát giao thông hiện đại, sử dụng AI để nhận diện phương tiện vi phạm, cung cấp thông tin chi tiết và hỗ trợ ChatBot tư vấn nhanh về Luật giao thông Việt Nam.
+> **TrafficXY** là hệ thống giám sát giao thông hiện đại, sử dụng AI để nhận diện phương tiện vi phạm, cung cấp thông tin chi tiết.
 
 ---
 
@@ -9,14 +9,12 @@
 ✅ **Nhận diện phương tiện vi phạm** từ camera giám sát.  
 ✅ **Xử lý hình ảnh bằng AI** với GPU tăng tốc.  
 ✅ **Lưu trữ và truy vấn dữ liệu xe vi phạm**.  
-✅ **API RESTful** hỗ trợ giao tiếp với Frontend.  
-✅ **Tích hợp ChatBot AI** giúp tra cứu luật giao thông.  
 
 ---
 
 ## 🛠️ Hướng dẫn cài đặt Backend trên Windows
 
-> **🔹 Yêu cầu hệ thống:** Windows 10/11, RAM tối thiểu **8GB**, Python **3.9+**, Anaconda.
+> **🔹 Yêu cầu hệ thống:** Windows 10/11, RAM tối thiểu **8GB**, VGA NVIDIA tối thiểu **8GB**, Python **3.9+**, Anaconda.
 
 ### 📌 1️⃣ Cài đặt **Visual Studio Code**
 
